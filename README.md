@@ -1,6 +1,11 @@
 
 
-AD1938 codec configuration using Teensy spi drivers
+//AD1938 codec configuration using Teensy spi drivers
+#include <Audio.h>
+#include <Wire.h>
+#include <SPI.h>
+
+#include"control_ad1938.h"
 
 /*
 The daisy chain connection of two ad1938 and Teensy are as follows
